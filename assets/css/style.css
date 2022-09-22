@@ -5,3 +5,30 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* utilities */
+
+.flex{
+    display: flex;
+}
+
+.f-between{
+    justify-content: space-between;
+}
+
+/* header */
+header *{
+    vertical-align: middle;
+}
+header section{
+    vertical-align: middle;
+    padding: 1em;
+}
+
+header a{
+    padding: 10px 15px;
+}
+
+#login{
+    padding: 5px 10px;
+}
