@@ -68,6 +68,10 @@ width: 70%;
     font-size: 120%;
 }
 
+#free-trial span{
+    flex-basis: 30%;
+}
+
 #h-large{
     font-size: 5em;
 }
@@ -140,4 +144,27 @@ ul{
     top: 40px;
     right: 20px;
     position: absolute;
+}
+
+/* partner and sevices info */
+
+#partner div:first-child{
+    flex-basis: 55%;
+    width: 50%;
+}
+#partner img{
+    width: 100%;
+}
+
+#partner div:last-child{
+    flex-basis: 40%;
+    padding-top: 4vh;
+}
+
+#services > div{
+    width: 30%;
+}
+
+#services img{
+    width: 100%;
 }
