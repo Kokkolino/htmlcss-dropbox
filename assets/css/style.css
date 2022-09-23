@@ -82,3 +82,8 @@ width: 70%;
 #plan{
     padding-top: 10vh;
 }
+
+.subscription{
+    flex-basis: 30%;
+    border: 1px solid;
+}
