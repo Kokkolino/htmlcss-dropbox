@@ -39,35 +39,46 @@ button{
 }
 
 /* main */
-/* first section */
+/* Free trial */
 
-#cyan-bg{
+.cyan-bg{
     background-color: #B4D0E7;
+}
+
+#overlap{
+    position: relative;
+    bottom: -80px;
 }
 
 #free-trial{
     padding-top: 4vh;
+    position: relative;
 }
 
-#free-trial img{
-    width: 75%;
-    float: right;
+#free-trial > img{
+width: 70%;    
+}
+
+#free-trial button, div, p{
+    margin-bottom: 3vh;
 }
 
 #free-trial p{
     font-size: 120%;
 }
 
-#free-trial *{
-    margin-bottom: 3%
-}
-
 #h-large{
     font-size: 5em;
-    padding-top: 4vh;
 }
 
 #arrow{
-    width: 3%;
-    padding-top: 5%;
+    width: 1%;
+    position: absolute;
+    bottom: 85px;
+}
+
+/* subscription plan */
+
+#plan{
+    padding-top: 10vh;
 }
