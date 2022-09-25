@@ -53,10 +53,24 @@ header a{
     padding: 10px 15px;
 }
 
-button{
-    padding: 5px 10px;
+.b-blue{
+    background-color: #0061ff;
+    border: none;
+    color: white;
+    padding: 10px 15px;
 }
 
+.b-bordered{
+    border: 1px solid black;
+    background-color: white;
+    padding: 10px;
+}
+
+.b-white{
+    border: none;
+    background-color: whitesmoke;
+    padding: 10px 15px;
+}
 /* main */
 /* Free trial */
 
@@ -120,21 +134,22 @@ width: 70%;
     flex-basis: 100%;
 }
 
-.cont-head p{
-    margin: 2em;
-}
 
 .cont-head{
     border-bottom: 1px solid;
     text-align: center;
+    padding: 15px 0;
 }
 
 .cont-body, .sub-foot{
     padding: 0 5%;
 }
 
-.cont-body div, .cont-body p{
+.cont-body div{
     margin: 1em;
+}
+.cont-body p{
+    margin: 1em 0;
 }
 
 .cont-body button{
@@ -162,7 +177,7 @@ ul{
 }
 
 #b-office{
-    top: 40px;
+    top: 60px;
     right: 20px;
     position: absolute;
 }
@@ -182,12 +197,20 @@ ul{
     padding-top: 4vh;
 }
 
+#partner-info *{
+    margin: 1em 0;
+}
+
 #services > div{
     width: 30%;
 }
 
 #services img{
     width: 100%;
+}
+
+#margin-box{
+    margin: 7vh 0 3vh 0;
 }
 
 #teams{
@@ -304,7 +327,6 @@ footer{
     text-decoration: none;
     color: white;
     line-height: 3em;
-    font-size: 120%;
 }
 
 #contacts a:hover{
