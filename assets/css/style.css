@@ -237,7 +237,6 @@ ul{
     padding-top: 3vh;
 }
 
-
 #t6{
     background-color: #d5001f;
 }
@@ -252,4 +251,72 @@ ul{
 
 #t9{
     background-color: #ffd830;
+}
+
+#free-trial-2{
+    background-color: #b4d0e7;
+    padding: 7vh 15vw;
+    position: relative;
+}
+
+#free-trial-2 h1{
+    display: inline;
+}
+
+#free-trial-2 button{
+    position: absolute;
+    right: 30vw;
+}
+
+#faq{
+    padding: 5vh 0 10vh 0;
+}
+
+#faq h3{
+    padding: 3vh 0;
+}
+
+.line{
+    border-bottom: 1px solid black;
+
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+#contacts{
+    padding: 5vh 0 3vh 0;
+}
+
+#contacts div{
+    flex-basis: 20%;
+}
+
+#contacts h1{
+    padding-bottom: 0.8em;
+}
+
+#contacts a{
+    text-decoration: none;
+    color: white;
+    line-height: 3em;
+    font-size: 120%;
+}
+
+#contacts a:hover{
+    text-decoration: underline;
+}
+
+.decoration{
+    border: 1px solid white;
+    margin: 3vh 0;
+}
+
+#lang{
+    opacity: 0.6;
+    padding: 0 0 3vh 0;
 }
