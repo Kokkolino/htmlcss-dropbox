@@ -41,7 +41,7 @@
 }
 
 .svg{
-    width: 1em;
+    height: 1em;
 }
 
 .sub-foot li::before{
@@ -105,7 +105,7 @@ width: 70%;
 }
 
 #free-trial button{
-    margin-bottom: 2vh;
+    margin: 2vh;
 }
 
 #free-trial p{
@@ -312,11 +312,13 @@ ul{
     padding: 3vh 0;
 }
 
-
-
 .line{
     border-bottom: 1px solid black;
 
+}
+
+#faq h3::after{
+    content: '\25bc';
 }
 
 /* footer */
@@ -355,5 +357,14 @@ footer{
 
 #lang{
     opacity: 0.6;
-    padding: 0 0 3vh 0;
+    padding: 0 1em 3vh 1em;
+}
+
+#lang::before{
+    content: url(../img/earth-americas-solid.svg);
+    opacity: 0.6;
+    background-size: 1em 1em;
+    display: inline-block;
+    width: 1em; 
+    height: 1em;
 }
