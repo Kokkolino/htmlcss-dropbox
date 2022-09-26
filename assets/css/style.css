@@ -333,8 +333,16 @@ ul{
 
 }
 
-#faq h3::after{
+#faq span{
+    padding-top: 32px;
+}
+
+#faq span::after{
     content: '\25bc';
+}
+
+#faq div{
+    justify-content: space-between;
 }
 
 /* footer */
