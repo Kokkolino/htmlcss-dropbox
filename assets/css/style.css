@@ -13,6 +13,14 @@
     flex-wrap: wrap;
 }
 
+.flex-i{
+    display: flex;
+}
+
+.flex-i img{
+    padding-right: 5px;
+}
+
 .f-between{
     justify-content: space-between;
 }
@@ -105,7 +113,7 @@ width: 70%;
 }
 
 #free-trial button{
-    margin: 2vh;
+    margin: 2vh 0;
 }
 
 #free-trial p{
@@ -159,7 +167,7 @@ width: 70%;
 }
 
 .cont-body div{
-    margin: 1em;
+    margin: 1em 0;
 }
 .cont-body p{
     margin: 1em 0;
@@ -171,6 +179,10 @@ width: 70%;
     margin-bottom: 30px;
 }
 
+.icon{
+    flex-basis: 1em;
+}
+
 .sub-decoration{
     width: 20%;
     border-top: 1px solid;
@@ -179,6 +191,10 @@ width: 70%;
 
 .sub-foot{
     line-height: 2em;
+}
+
+.sub-foot .icon{
+    margin-top: 9px;
 }
 
 ul{
